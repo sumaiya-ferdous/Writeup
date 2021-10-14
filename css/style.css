@@ -1,0 +1,125 @@
+body{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+}
+
+p, small{
+    color: #888;
+}
+
+p{
+    font-size: 14px;
+}
+
+small{
+    font-size: 13px;
+}
+
+
+h1, h2, h3, h4, b{
+    color: #222;
+    font-weight: bold;
+}
+
+.logo{
+    color: #f79918;
+}
+
+.navbar{
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.d-grid{
+    display: grid;
+}
+
+.img-container{
+    overflow: hidden;
+}
+
+.img-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    text-align: center;
+}
+
+.search{
+    border-radius: 30px;
+}
+
+.p-blogs{
+    grid-template-columns: 30% 67%;
+    gap: 3%;
+}
+
+.p-blogs-text{
+    align-self: center;
+}
+
+.blogs{
+    grid-template-columns: repeat(auto-fit,minmax(315px,1fr));
+    gap: 2rem;
+}
+
+.profile-pic{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.profile-div p{
+    font-size: 13px;
+}
+
+.category-section{
+    margin: 4rem auto;
+}
+
+.category{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(315px,1fr));
+}
+
+.category-item{
+    display: grid;
+    grid-template-columns: 30% 67%;
+    grid-gap: 3%;
+    margin: 1.5rem 0;
+}
+
+.btn-sub{
+    background-color: #f79918;
+    border: 1px solid transparent;
+    width: 30%;
+    border-radius: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-sub:hover, .btn-sub:focus, .btn-sub:active{
+    background-color: white;
+    border: 1px solid #f79918;
+    color: #f79918;
+}
+
+.social{
+    text-decoration: none;
+    color: black;
+}
+
+.img-box{
+    float: left;
+    height: 40%;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+@media screen and (max-width:768px) {
+    .p-blogs{
+        grid-template-columns: 1fr;
+    }
+}
+
