@@ -218,7 +218,7 @@ button:focus:not(:focus-visible) {
 }
 
 .top-head{
-    background: url("/images/test1.jpg") no-repeat center/cover fixed;
+    background: url("../images/test1.jpg") no-repeat center/cover fixed;
     height: 90vh;
     place-items: center;
     vertical-align: center;
