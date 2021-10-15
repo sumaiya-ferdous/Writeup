@@ -4,355 +4,446 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0-10/css/all.css">
     <title>Write up| Blogging site</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <b>Write <span class="logo">Up.</span></b>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Biology</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Physics</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Chemistry</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Technology</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2 search" type="search" placeholder="Search" aria-label="Search">
-              
-            </form>
-          </div>
+<nav class=" nav navbar navbar-expand-lg navbar-light">
+    <div class="container">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+            <div class="nav-title">
+                Write<span class="theme">Up.</span>
+            </div>
         </div>
-      </nav>
-      <section class=" container my-5">
-        <h2 class="text-center mb-4">Popular blogs</h2>
-        <div class="d-grid p-blogs">
-          <div class="img-container">
+        <div class="nav-btn">
+            <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Science</a>
+            <a href="#">Physics</a>
+            <a href="#">Biology</a>
+            <a href="#">Technology</a>
+        </div>
+    </div>
+</nav>
+<section class="top-head">
+    <div class="mask">
+        <div class="text-center">
+            <h1>Write<span class="theme">Up.</span></h1>
+            <p>The best science and tech blog site</p>
+            <div class="search-top margin-top">
+                <input class="form-control" placeholder="Search Blogs">
+                <button class="btn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container margin-top">
+    <h1 class="title text-center">Blog Gall<span class="theme">ery</span></h1>
+    <hr>
+    <div class="margin-top blogs d-grid recent-blogs">
+        <div class="blog-item rb-col">
+            <button class="btn love "><i class="far fa-heart"></i></button>
+            <div class="img-container img-box">
+                <img src="/images/blog1.jpg" alt="">
+            </div>
+            <div class="text-box">
+                <h5>Human Evolution</h5>
+                <p>21 July 2021 | Author</p>
+            </div>
+        </div>
+        <div class="blog-item rb-col">
+            <button class="btn love "><i class="far fa-heart"></i></button>
+            <div class="img-container img-box">
+                <img src="/images/blog2.jpg" alt="">
+            </div>
+            <div class="text-box">
+                <h5>Modern Circuit Board</h5>
+                <p>21 July 2021 | Author</p>
+            </div>
+        </div>
+        <div class="blog-item rb-col">
+            <button class="btn love "><i class="far fa-heart"></i></button>
+            <div class="img-container img-box">
+                <img src="/images/blog3.jpg" alt="">
+            </div>
+            <div class="text-box">
+                <h5>How satellites work</h5>
+                <p>21 July 2021 | Author</p>
+            </div>
+        </div>
+        <div class=" blog-item rb-col">
+            <button class="btn love "><i class="far fa-heart"></i></button>
+            <div class="img-container img-box">
+                <img src="/images/blog4.jpg" alt="">
+            </div>
+            <div class="text-box">
+                <h5>Rocket Science</h5>
+                <p>21 July 2021 | Author</p>
+            </div>
+        </div>
+        <div class="blog-item rb-col">
+            <button class="btn love "><i class="far fa-heart"></i></button>
+            <div class="img-container img-box">
+                <img src="/images/blog5.jpg" alt="">
+            </div>
+            <div class="text-box">
+                <h5>Cosmic Energy</h5>
+                <p>21 July 2021 | Author</p>
+            </div>
+        </div>
+        <div class="blog-item rb-col">
+            <button class="btn love "><i class="far fa-heart"></i></button>
+            <div class="img-container img-box">
+                <img src="/images/blog6.jpg" alt="">
+            </div>
+            <div class="text-box">
+                <h5>The greatest scientist of all time</h5>
+                <p>21 July 2021 | Author</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="d-grid top-grid container mt-5">
+    <div class="image-col">
+        <div>
+            <p>
+                20 January 2021 | Blog
+            </p>
+            <h1 class="bold-text">
+                <b>The magnificent Northern Light and behind it's science</b>
+            </h1>
+        </div>
+        <div class="img-container">
+            <img src="./images/northern.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="text-col">
+        <span class="green-ball"></span>
+        <div>
+            <h4>Summary</h4>
+            <p>
+                An aurora (plural: auroras or aurorae) also known as polar lights, aurora polaris, northern lights,
+                aurora borealis, or southern lights, aurora australis, is a natural light display in Earth's sky,
+                predominantly seen in high-latitude regions (around the Arctic and Antarctic). Auroras display
+            </p>
+        </div>
+        <div class="margin-top">
+            <h4>Science</h4>
+            <p>
+                Most auroras occur in a band known as the "auroral zone",
+                which is typically 3° to 6° wide in latitude and between 10° and 20° from the
+                geomagnetic poles at all local times (or longitudes), most clearly seen at
+
+
+            </p>
+        </div>
+    </div>
+
+</section>
+<section class="container margin-top-bottom-max">
+    <h2 class="title text-center margin-bottom">Popular blogs</h2>
+    <div class="d-grid p-blogs">
+        <div class="img-container">
             <img src="./images/prism.jpg" alt="">
-          </div>
+        </div>
 
-          <div class="p-blogs-text">
+        <div class="p-blogs-text">
             <small>
-              <b>Optics, Physics</b> - July 1, 2021
+                <b>Optics, Physics</b> - July 1, 2021
             </small>
-            <h2 class="my-2">
-              Prism, a magnificent invention of science
+            <h2 class="margin-top-bottom">
+                Prism, a magnificent invention of science
             </h2>
-            <p>An optical prism is a transparent optical element with flat, polished surfaces that refract light. At least one surface must be angled — elements with two parallel surfaces are not prisms. The traditional geometrical shape of an optical prism is that of a triangular prism with a triangular base and rectangular sides, and in colloquial use "prism" usually refers to this type. </p>
+            <p>An optical prism is a transparent optical element with flat, polished surfaces that refract light. At
+                least one surface must be angled — elements with two parallel surfaces are not prisms. The traditional
+                geometrical shape of an optical prism is that of a triangular prism with a triangular base and
+                rectangular sides, and in colloquial use "prism" usually refers to this type. </p>
 
-            <div class="d-flex align-items-center profile-div mt-2">
-              <div class="profile-pic img-container me-2">
-                <img src="https://avatars.dicebear.com/api/avataaars/1.svg" alt="">
-              </div>
-              <div>
-                <h6 class="m-0"><b>Sumaiya Ferdous</b></h6>
-                <p class="m-0">Author</p>
-              </div>
+            <div class="d-flex align-items-center profile-div margin-top-1">
+                <div class="profile-pic img-container margin-right">
+                    <img src="https://avatars.dicebear.com/api/avataaars/1.svg" alt="">
+                </div>
+                <div>
+                    <h6 class="margin-0"><b>Sumaiya Ferdous</b></h6>
+                    <p class="margin-0">Author</p>
+                </div>
             </div>
-          </div>
+        </div>
+    </div>
+
+</section>
+<section class=" container my-4">
+    <h2 class="title text-center margin-bottom">More Blogs</h2>
+    <div class="margin-top-bottom blogs d-grid">
+        <div class="blog-item">
+            <div class="img-container img-box">
+                <img src="./images/pic2.webp" alt="">
+            </div>
+            <div class="d-grid">
+                <small>
+                    <b>Earth, facts</b> - July 1, 2021
+                </small>
+                <h4 class="margin-top-bottom">
+                    Cactus
+                </h4>
+                <p>Cactus spines are produced from specialized structures called areoles, a kind of highly reduced
+                    branch. Areoles are an identifying feature of cacti. As well as spines, areoles give rise to
+                    flowers, which are usually tubular and multipetaled.
+                    <br></p>
+                <button class="btn">
+                    Read More..
+                </button>
+            </div>
         </div>
 
-      </section>
-      <section class=" container my-4">
-        <h2 class="text-center mb-4">Blogs</h2>
-        <div class="my-2 blogs d-grid">
-          <div class="blog-item">
+        <div class="blog-item">
             <div class="img-container img-box">
-              <img src="./images/pic2.webp" alt="">
+                <img src="./images/formal.jpg" alt="">
             </div>
-            <div class="mt-2">
-              <small>
-                <b>Earth, facts</b> - July 1, 2021
-              </small>
-              <h4 class="my-2">
-                Cactus
-              </h4>
-              <p>Cactus spines are produced from specialized structures called areoles, a kind of highly reduced branch. Areoles are an identifying feature of cacti. As well as spines, areoles give rise to flowers, which are usually tubular and multipetaled.</p>
-              <div class="d-flex align-items-center profile-div mt-2">
-                <div class="profile-pic img-container me-2">
-                  <img src="https://avatars.dicebear.com/api/avataaars/2.svg" alt="">
-                </div>
-                <div>
-                  <h6 class="m-0"><b>Zerin</b></h6>
-                  <p class="m-0">Writer</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div class="blog-item">
-            <div class="img-container img-box">
-              <img src="./images/formal.jpg" alt="">
-            </div>
-            <div class="mt-2">
-              <small>
-                <b>Organic, Chemistry</b> - July 1, 2021
-              </small>
-              <h4 class="my-2">
-                Formaldehyde, a lethal poison
-              </h4>
-              <p>Formaldehyde is more complicated than many simple carbon compounds in that it adopts several diverse forms. These compounds can often be used interchangeably and can be interconverted.</p>
+            <div class="d-grid">
+                <small>
+                    <b>Organic, Chemistry</b> - July 1, 2021
+                </small>
+                <h4 class="margin-top-bottom">
+                    Formaldehyde, a lethal poison
+                </h4>
+                <p>Formaldehyde is more complicated than many simple carbon compounds in that it adopts several diverse
+                    forms. These compounds can often be used interchangeably and can be interconverted.</p>
 
-              <div class="d-flex align-items-center profile-div mt-2">
-                <div class="profile-pic img-container me-2">
-                  <img src="https://avatars.dicebear.com/api/avataaars/3.svg" alt="">
-                </div>
-                <div>
-                  <h6 class="m-0"><b>Enayet Chowdhury</b></h6>
-                  <p class="m-0">Lecturer</p>
-                </div>
-              </div>
+                <button class="btn">
+                    Read More..
+                </button>
             </div>
-          </div>
-
-          <div class="blog-item">
-            <div class="img-container img-box">
-              <img src="./images/vaccine.jpg" alt="">
-            </div>
-            <div class="mt-2">
-              <small>
-                <b>News, Health</b> - July 1, 2021
-              </small>
-              <h4 class="my-2">
-                Vaccine for Covid-19
-              </h4>
-              <p>Equitable access to safe and effective vaccines is critical to ending the COVID-19 pandemic, so it is hugely encouraging to see so many vaccines proving and going into development.</p>
-
-              <div class="d-flex align-items-center profile-div mt-2">
-                <div class="profile-pic img-container me-2">
-                  <img src="https://avatars.dicebear.com/api/avataaars/4.svg" alt="">
-                </div>
-                <div>
-                  <h6 class="m-0"><b>Jannatil Ferdous</b></h6>
-                  <p class="m-0">Student</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="blog-item">
-            <div class="img-container img-box">
-              <img src="./images/Quantum.jpg" alt="">
-            </div>
-            <div class="mt-2">
-              <small>
-                <b>Computer, Technology</b> - July 1, 2021
-              </small>
-              <h4 class="my-2">
-                Quantum Computer, the 9<sup>th</sup> wonder
-              </h4>
-              <p>Quantum computers are machines that use the properties of quantum physics to store data and perform computations. This can be extremely advantageous for certain tasks where they could vastly outperform even our best supercomputers.</p>
-
-              <div class="d-flex align-items-center profile-div mt-2">
-                <div class="profile-pic img-container me-2">
-                  <img src="https://avatars.dicebear.com/api/avataaars/5.svg" alt="">
-                </div>
-                <div>
-                  <h6 class="m-0"><b>Harun-Al-Rashid</b></h6>
-                  <p class="m-0">Scientist</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="blog-item">
-            <div class="img-container img-box">
-              <img src="./images/bacteria.jpg" alt="">
-            </div>
-            <div class="mt-2">
-              <small>
-                <b>Microbiology</b> - July 1, 2021
-              </small>
-              <h4 class="my-2">
-                Bacteria, a microscopic organism
-              </h4>
-              <p>Microbiology is the study of microscopic organisms, such as bacteria, viruses, archaea, fungi and protozoa. This discipline includes fundamental research on the biochemistry, physiology, cell biology, ecology, evolution and clinical aspects of microorganisms.</p>
-
-              <div class="d-flex align-items-center profile-div mt-2">
-                <div class="profile-pic img-container me-2">
-                  <img src="https://avatars.dicebear.com/api/avataaars/16.svg" alt="">
-                </div>
-                <div>
-                  <h6 class="m-0"><b>Mokles Talukdar</b></h6>
-                  <p class="m-0">Businessman</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-
-          <div class="blog-item">
-            <div class="img-container img-box">
-              <img src="./images/tablet.jpg" alt="">
-            </div>
-            <div class="mt-2">
-              <small>
-                <b>Medicine, Health</b> - July 1, 2021
-              </small>
-              <h4 class="my-2">
-                Medicine for deadly diseases
-              </h4>
-              <p>Medicines can treat diseases and improve your health. If you are like most people, you need to take medicine at some point in your life. You may need to take medicine every day, or you may only need to take medicine once in a while.</p>
-
-              <div class="d-flex align-items-center profile-div mt-2">
-                <div class="profile-pic img-container me-2">
-                  <img src="https://avatars.dicebear.com/api/avataaars/7.svg" alt="">
-                </div>
-                <div>
-                  <h6 class="m-0"><b>Dider</b></h6>
-                  <p class="m-0">Housewife</p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </section>
 
-      <section class="container category-section">
-        <div class="category">
-          <div>
+        <div class="blog-item">
+            <div class="img-container img-box">
+                <img src="./images/vaccine.jpg" alt="">
+            </div>
+            <div class="d-grid">
+                <small>
+                    <b>News, Health</b> - July 1, 2021
+                </small>
+                <h4 class="margin-top-bottom">
+                    Vaccine for Covid-19
+                </h4>
+                <p>Equitable access to safe and effective vaccines is critical to ending the COVID-19 pandemic, so it is
+                    hugely encouraging to see so many vaccines proving and going into development.
+                    <br><br></p>
+
+                <button class="btn">
+                    Read More..
+                </button>
+            </div>
+        </div>
+
+        <div class="blog-item">
+            <div class="img-container img-box">
+                <img src="./images/Quantum.jpg" alt="">
+            </div>
+            <div class="d-grid">
+                <small>
+                    <b>Computer, Technology</b> - July 1, 2021
+                </small>
+                <h4 class="margin-top-bottom">
+                    Quantum Computer, the 9<sup>th</sup> wonder
+                </h4>
+                <p>Quantum computers are machines that use the properties of quantum physics to store data and perform
+                    computations.
+                    <br>This can be extremely advantageous for certain tasks where they could vastly outperform even our
+                    best supercomputers.</p>
+
+                <button class="btn">
+                    Read More..
+                </button>
+            </div>
+        </div>
+
+        <div class="blog-item">
+            <div class="img-container img-box">
+                <img src="./images/bacteria.jpg" alt="">
+            </div>
+            <div class="d-grid">
+                <small>
+                    <b>Microbiology</b> - July 1, 2021
+                </small>
+                <h4 class="margin-top-bottom">
+                    Bacteria, a microscopic organism
+                </h4>
+                <p>Microbiology is the study of microscopic organisms, such as bacteria, viruses, archaea, fungi and
+                    protozoa. This discipline includes fundamental research on the biochemistry, physiology, cell
+                    biology, ecology, evolution and clinical aspects of microorganisms.</p>
+
+                <button class="btn">
+                    Read More..
+                </button>
+            </div>
+        </div>
+
+
+        <div class="blog-item">
+            <div class="img-container img-box">
+                <img src="./images/tablet.jpg" alt="">
+            </div>
+            <div class="d-grid">
+                <small>
+                    <b>Medicine, Health</b> - July 1, 2021
+                </small>
+                <h4 class="margin-top-bottom">
+                    Medicine for deadly diseases
+                </h4>
+                <p>Medicines can treat diseases and improve your health. <br><br>If you are like most people, you need
+                    to take medicine at some point in your life. You may need to take medicine every day, or you may
+                    only need to take medicine once in a while.</p>
+
+                <button class="btn">
+                    Read More..
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container category-section">
+    <div class="category">
+        <div>
             <h2 class="mb-3">Food Science</h2>
             <div>
-              <div class="category-item">
-                <div class="img-container">
-                  <img src="./images/veg.jpg" alt="">
-                </div>
+                <div class="category-item">
+                    <div class="img-container">
+                        <img src="./images/veg.jpg" alt="">
+                    </div>
 
-                 <div class="mt-2">
-                  <small>
-                    <b>Food, Health</b> - July 1, 2021
-                  </small>
-                  <h5>Why vegetables are so important?</h5>
-    
-                  <div class="d-flex align-items-center profile-div mt-2">
-                    <div class="profile-pic img-container me-2">
-                      <img src="https://avatars.dicebear.com/api/avataaars/789.svg" alt="">
-                    </div>
-                    <div>
-                      <p class="m-0"><b>Zannat Ara Hossain</b></p>
-                      <p class="m-0">Chemist</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="category-item">
-                <div class="img-container">
-                  <img src="./images/coke.jpg" alt="">
-                </div>
+                    <div class="">
+                        <small>
+                            <b>Food, Health</b> - July 1, 2021
+                        </small>
+                        <h5>Why vegetables are so important?</h5>
 
-                <div class="mt-2">
-                  <small>
-                    <b>Food, Health</b> - July 1, 2021
-                  </small>
-                  <h5>Dangers of junk food</h5>
-    
-                  <div class="d-flex align-items-center profile-div mt-2">
-                    <div class="profile-pic img-container me-2">
-                      <img src="https://avatars.dicebear.com/api/avataaars/obg.svg" alt="">
+                        <div class="d-flex align-items-center profile-div margin-top-1">
+                            <div class="profile-pic img-container margin-right">
+                                <img src="https://avatars.dicebear.com/api/avataaars/789.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="margin-0"><b>Dipto</b></p>
+                                <p class="margin-0">Influencer</p>
+
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                     <p class="m-0"><b>Doctor Zara</b></p>
-                      <p class="m-0">Doctor</p>
-                    </div>
-                  </div>
                 </div>
-              </div>
+                <div class="category-item">
+                    <div class="img-container">
+                        <img src="./images/coke.jpg" alt="">
+                    </div>
+
+                    <div class="">
+                        <small>
+                            <b>Food, Health</b> - July 1, 2021
+                        </small>
+                        <h5>Dangers of junk food</h5>
+
+                        <div class="d-flex align-items-center profile-div margin-top-1">
+                            <div class="profile-pic img-container margin-right">
+                                <img src="https://avatars.dicebear.com/api/avataaars/obg.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="margin-0"><b>Shreya Shrabonti</b></p>
+                                <p class="margin-0">Doctor & Mother</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div>
+        </div>
+        <div>
             <h2 class="mb-3">Technology</h2>
             <div>
-              <div class="category-item">
-                <div class="img-container">
-                  <img src="./images/python.jpg" alt="">
-                </div>
+                <div class="category-item">
+                    <div class="img-container">
+                        <img src="./images/python.jpg" alt="">
+                    </div>
 
-                 <div class="mt-2">
-                  <small>
-                    <b>Programming, Technology</b> - July 1, 2021
-                  </small>
-                  <h5>Why to learn programming?</h5>
-    
-                  <div class="d-flex align-items-center profile-div mt-2">
-                    <div class="profile-pic img-container me-2">
-                      <img src="https://avatars.dicebear.com/api/avataaars/arnobmc.svg" alt="">
-                    </div>
-                    <div>
-                      <p class="m-0"><b>Dipto</b></p>
-                      <p class="m-0">Influencer</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="category-item">
-                <div class="img-container">
-                  <img src="./images/robot.jpg" alt="">
-                </div>
+                    <div class="">
+                        <small>
+                            <b>Programming, Technology</b> - July 1, 2021
+                        </small>
+                        <h5>Why to learn programming?</h5>
 
-                 <div class="mt-2">
-                  <small>
-                    <b>AI, Technology</b> - July 1, 2021
-                  </small>
-                  <h5>Future is here, AI</h5>
-    
-                  <div class="d-flex align-items-center profile-div mt-2">
-                    <div class="profile-pic img-container me-2">
-                      <img src="https://avatars.dicebear.com/api/avataaars/diptoganja.svg" alt="">
+                        <div class="d-flex align-items-center profile-div margin-top-1">
+                            <div class="profile-pic img-container margin-right">
+                                <img src="https://avatars.dicebear.com/api/avataaars/arnobmc.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="margin-0"><b>Zannat Ara Hossain</b></p>
+                                <p class="margin-0">Chemist</p>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                      <p class="m-0"><b>Shreya Shrabonti</b></p>
-                      <p class="m-0">Mother</p>
-                    </div>
-                  </div>
                 </div>
-              </div>
+                <div class="category-item">
+                    <div class="img-container">
+                        <img src="./images/robot.jpg" alt="">
+                    </div>
+
+                    <div class="">
+                        <small>
+                            <b>AI, Technology</b> - July 1, 2021
+                        </small>
+                        <h5>Future is here, AI</h5>
+
+                        <div class="d-flex align-items-center profile-div margin-top-1">
+                            <div class="profile-pic img-container margin-right">
+                                <img src="https://avatars.dicebear.com/api/avataaars/diptoganja.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="margin-0"><b>Michael Jordan</b></p>
+                                <p class="margin-0">Professor</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </section>
-      <section class="bg-light newsletter py-4">
-        <div class="container">
-          <h4>Subscribe to newsletter</h4>
-          <div class="mt-3 d-flex align-items-center">
-              <input class="form-control me-3" type="email" placeholder="Enter your email">
-              <button class="btn btn-sub">Subscribe</button>
-          </div>
+    </div>
+</section>
+<section class="bg-light newsletter py-4">
+    <div class="container">
+        <h4>Subscribe to newsletter</h4>
+        <div class="mt-3 d-flex align-items-center">
+            <input class="form-control me-3" type="email" placeholder="Enter your email">
+            <button class="btn btn-sub">Join</button>
         </div>
-      </section>
-      <footer class="py-5">
-          <div class="container text-center d-flex justify-content-center align-items-center">
-                <div class="d-flex align-items-center">
-                    <a href="https://www.facebook.com/sumaiya.ferdous.010/" class="social me-3"><i class="fab fa-facebook"></i></a>
-                    <a href="https://www.facebook.com/sumaiya.ferdous.010/" class="social me-3"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.facebook.com/sumaiya.ferdous.010/" class="social me-3"><i class="fab fa-github"></i></a>
-                    <a href="https://www.facebook.com/sumaiya.ferdous.010/" class="social me-3"><i class="fab fa-instagram"></i></a>
-                </div>
-                <div class="mt-3">
-                    <p>Made by @Sumaiya Ferdous</p>
-                </div>
-          </div>
-      </footer>
+    </div>
+</section>
+<footer class="py-5">
+    <div class="container text-center d-flex justify-content-center align-items-center">
+        <div class="d-flex align-items-center">
+            <a href="https://www.facebook.com/sumaiya.ferdous.010/" class="social me-3"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.facebook.com/sumaiya.ferdous.010/" class="social me-3"><i
+                    class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/sumaiya.ferdous.010/" class="social me-3"><i
+                    class="fab fa-github"></i></a>
+            <a href="https://www.facebook.com/sumaiya.ferdous.010/" class="social me-3"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="mt-3 p-0">
+            <p class="p-0">Made by @Sumaiya Ferdous</p>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
