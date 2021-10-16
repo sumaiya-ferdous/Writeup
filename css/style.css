@@ -339,6 +339,20 @@ button:focus:not(:focus-visible) {
     color: #f79918 !important;
 }
 
+.center-btn{
+    display: grid;
+    place-items: center;
+}
+
+.center-btn button{
+    width: 150px;
+
+}
+
+.mt-1{
+    margin-top: 0.75 rem;
+}
+
 .social{
     text-decoration: none;
     color: black;
